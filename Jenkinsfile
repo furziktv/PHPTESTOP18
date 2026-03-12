@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Имя вашего образа в Docker Hub
-        DOCKER_IMAGE = 'jenkins/nginx:latest'
+        DOCKER_IMAGE = 'tom666336@gmail.com/weqweq'
         // Используем учетные данные, которые мы добавили ранее
         DOCKER_CREDENTIALS_ID = 'f0981e13-5e4c-49d9-817e-8c7c2979580b'
     }
