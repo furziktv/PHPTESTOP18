@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Получаем код из репозитория
-                git branch: 'main', url: 'https://github.com/your_username/your_repo.git'
+                git branch: 'main', url: 'https://github.com/furziktv/PHPTESTOP18.git'
             }
         }
 
