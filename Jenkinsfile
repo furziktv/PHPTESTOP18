@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         // Имя вашего образа в Docker Hub
-        DOCKER_IMAGE = 'your_dockerhub_username/my-laravel-app'
+        DOCKER_IMAGE = 'furziktv/PHPTESTOP18'
         // Используем учетные данные, которые мы добавили ранее
-        DOCKER_CREDENTIALS_ID = 'docker-hub-credentials'
+        DOCKER_CREDENTIALS_ID = 'f0981e13-5e4c-49d9-817e-8c7c2979580b'
     }
 
     stages {
