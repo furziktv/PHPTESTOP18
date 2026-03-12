@@ -5,7 +5,7 @@ pipeline {
         // Имя вашего образа в Docker Hub
         DOCKER_IMAGE = 'furzik/weqweq'
         // Используем учетные данные, которые мы добавили ранее
-        DOCKER_CREDENTIALS_ID = '6d86133b-b72a-4bdd-b56f-5cac6b726049'
+        DOCKER_CREDENTIALS_ID = 'docker-hub-token'
     }
 
     stages {
